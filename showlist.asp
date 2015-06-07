@@ -35,7 +35,7 @@
 
   if rs.recordcount>0 then
     i=0
-    Response.Write "<table border=1 width=100%>"
+    Response.Write "<table border=1 width=100%/>"
     Response.Write "<tr><td colspan=5 align=center>"
     if intarticleid=0 then
       Response.Write "Page " & session("abspage") & "&nbsp; Totally " & rs.RecordCount & " topics"
@@ -71,7 +71,7 @@
         Response.Write "</table></center>"
         Response.Write "<center><form action showlist.asp method=post>"
         if rs.pagecount>1 then
-          Response.Write "<input type=submit value=prev name=nextpage> & " "
+          Response.Write "<input type=submit value=prev name=nextpage>"
         end if
         if session("abspage") < rs.pagecount then
           Response.Write "<input type=submit value=next name=nextpage>"

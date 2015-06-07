@@ -10,7 +10,7 @@
   dim strname,strpassword,sql
   strname=Request.form("name")
   strpassword=Request.form("password")
-  sql="select * from user where username=" & strname & "'"
+  sql="select * from user where username='" & strname & "'"
   rstemp.open sql,conn,1,3
   if rstemp.RecordCount=1 then
     session("name")=strname

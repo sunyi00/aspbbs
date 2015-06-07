@@ -22,7 +22,7 @@
       <a href=showlist.asp>article list</a>
     </td>
     <td width=17% align=center>
-      <a href=publisharticle.html>publish article</a>
+      <a href=publisharticle.htm>publish article</a>
     </td>
     <td width=17% align=center>
       <a href="/" target=_parent>back to home</a>
